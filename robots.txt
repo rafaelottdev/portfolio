@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /privado/
+Disallow: /admin/
+
+Sitemap: https://rafaelottdev.github.io/sitemap.xml
