@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head> <!-- falta aqui -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfólio de Rafael Ott, desenvolvedor front-end especializado em sites responsivos e otimizados. Confira meus projetos.">
@@ -44,7 +44,7 @@
   <header>
     <div>
         <h1>
-            <a href="Rafael ott - Logo do site - Link que leva pro inicio do site">
+            <a href="inicio" aria-label="Rafael ott - Logo do site - Link que leva pro inicio do site">
                 <span>R</span>afael<span>O</span>tt
             </a>
         </h1>
@@ -52,23 +52,23 @@
         <nav>
             <ul>
                 <li>
-                    <a href="" aria-label="sobre - link de navegação - leva para a seção sobre do site">Sobre</a>
+                    <a href="sobre" aria-label="sobre - link de navegação - leva para a seção sobre do site">Sobre</a>
                 </li>
 
                 <li>
-                    <a href="" aria-label="serviços - link de navegação - leva para a seção de serviços do site">Serviços</a>
+                    <a href="servicos" aria-label="serviços - link de navegação - leva para a seção de serviços do site">Serviços</a>
                 </li>
 
                 <li>
-                    <a href="#" aria-label="projetos - link de navegação - leva para a seção de Projetos do site">Projetos</a>
+                    <a href="projetos" aria-label="projetos - link de navegação - leva para a seção de Projetos do site">Projetos</a>
                 </li>
 
                 <li>
-                    <a href="#" aria-label="habilidades - link de navegação - leva para a seção de Habilidades do site">Habilidades</a>
+                    <a href="habilidades" aria-label="habilidades - link de navegação - leva para a seção de Habilidades do site">Habilidades</a>
                 </li>
 
                 <li>
-                    <a href="#" aria-label="contato - link de navegação - leva para a seção de Contato do site">Contato</a>
+                    <a href="contato" aria-label="contato - link de navegação - leva para a seção de Contato do site">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -76,7 +76,7 @@
   </header>
 
   <main>
-    <section>
+    <section id="inicio">
         <div>
             <div>
                 <section>
@@ -87,35 +87,43 @@
                     <button>Explorar</button>
                 </section>
 
-                <section></section>
+                <section></section>  <!-- falta aqui -->
             </div>
 
             <div>
                 <div>
                     <ul>
                         <li>
-                            <a href="#" aria-label="github - link que leva para o meu perfil no github">
-                                <img src="./Assets/icons/github.svg" alt="icone do github">
+                            <a href="https://github.com/rafaelottdev" aria-label="github - link que leva para o meu perfil no github">
+                                <svg width="250" height="250" viewBox="0 0 50 50">
+                                    <path d="M17.791 46.836A2 2 0 0 0 19 45v-5.4q.002-.297.041-.61L19 39h-3.6c-1.5 0-2.8-.6-3.4-1.8-.7-1.3-1-3.5-2.8-4.7-.3-.2-.1-.5.5-.5.6.1 1.9.9 2.7 2 .9 1.1 1.8 2 3.4 2 2.487 0 3.82-.125 4.622-.555C21.356 34.056 22.649 33 24 33v-.025c-5.668-.182-9.289-2.066-10.975-4.975-3.665.042-6.856.405-8.677.707a22 22 0 0 1-.151-.987c1.797-.296 4.843-.647 8.345-.714a8 8 0 0 1-.291-.849c-3.511-.178-6.541-.039-8.187.097-.02-.332-.047-.663-.051-.999 1.649-.135 4.597-.27 8.018-.111a10 10 0 0 1-.13-1.543c0-1.7.6-3.5 1.7-5-.5-1.7-1.2-5.3.2-6.6 2.7 0 4.6 1.3 5.5 2.1C21 13.4 22.9 13 25 13s4 .4 5.6 1.1c.9-.8 2.8-2.1 5.5-2.1 1.5 1.4.7 5 .2 6.6 1.1 1.5 1.7 3.2 1.6 5 0 .484-.045.951-.11 1.409 3.499-.172 6.527-.034 8.204.102-.002.337-.033.666-.051.999-1.671-.138-4.775-.28-8.359-.089a8 8 0 0 1-.325.98c3.546.046 6.665.389 8.548.689q-.064.498-.151.987c-1.912-.306-5.171-.664-8.879-.682-1.665 2.878-5.22 4.755-10.777 4.974V33c2.6 0 5 3.9 5 6.6V45c0 .823.498 1.53 1.209 1.836C41.37 43.804 48 35.164 48 25 48 12.318 37.683 2 25 2S2 12.318 2 25c0 10.164 6.63 18.804 15.791 21.836"/>
+                                </svg>
                             </a>
                         </li>
 
                         <li>
-                            <a href="#" aria-label="linkedin - link que leva para o meu perfil no linkedin">
-                                <img src="./Assets/icons/linkedin.svg" alt="icone do linkedin">
+                            <a href="https://www.linkedin.com/in/rafael-ott-8435572b1/" aria-label="linkedin - link que leva para o meu perfil no linkedin">
+                                <svg width="250" height="250" viewBox="0 0 50 50">
+                                    <path d="M41 4H9C6.24 4 4 6.24 4 9v32c0 2.76 2.24 5 5 5h32c2.76 0 5-2.24 5-5V9c0-2.76-2.24-5-5-5M17 20v19h-6V20zm-6-5.53c0-1.4 1.2-2.47 3-2.47s2.93 1.07 3 2.47c0 1.4-1.12 2.53-3 2.53-1.8 0-3-1.13-3-2.53M39 39h-6V29c0-2-1-4-3.5-4.04h-.08C27 24.96 26 27.02 26 29v10h-6V20h6v2.56S27.93 20 31.81 20c3.97 0 7.19 2.73 7.19 8.26z"/>
+                                </svg>
                             </a>
                         </li>
 
                         <li>
                             <a href="#" aria-label="curriculo - link que leva para o meu curriculo em pdf">
-                                <img src="./Assets/icons/curriculo.svg" alt="Icone de curriculo">
+                                <svg width="256" height="256" viewBox="0 0 128 128">
+                                    <path d="M33.5 9c-7.2 0-13 5.8-13 13v80c0 7.2 5.8 13 13 13h61c7.2 0 13-5.8 13-13V22c0-7.2-5.8-13-13-13zm0 6h61c3.9 0 7 3.1 7 7v80c0 3.9-3.1 7-7 7h-61c-3.9 0-7-3.1-7-7V22c0-3.9 3.1-7 7-7m0 7v15h61V22zm4 29c-1.7 0-3 1.3-3 3s1.3 3 3 3h51c1.7 0 3-1.3 3-3s-1.3-3-3-3zm0 15c-1.7 0-3 1.3-3 3s1.3 3 3 3h51c1.7 0 3-1.3 3-3s-1.3-3-3-3zm0 15c-1.7 0-3 1.3-3 3s1.3 3 3 3H64c1.7 0 3-1.3 3-3s-1.3-3-3-3z"/>
+                                </svg>
                             </a>
                         </li>
                     </ul>
                 </div>
 
                 <div>
-                    <a href="#" aria-label="link que leva para o formulario de contato no final da pagina, que fica na seção de contato">
-                        <img src="./Assets/icons/link.svg" alt="icone de clipes (representa um link)">
+                    <a href="contato" aria-label="link que leva para o formulario de contato no final da pagina, que fica na seção de contato">
+                        <svg width="141.732" height="141.732">
+                            <path d="M57.217 63.271 20.853 99.637c-4.612 4.608-7.15 10.738-7.15 17.259 0 6.524 2.541 12.653 7.151 17.261a24.27 24.27 0 0 0 17.259 7.15h.002c6.52 0 12.648-2.54 17.257-7.15L91.738 97.79c7.484-7.484 9.261-18.854 4.573-28.188l-7.984 7.985a14.2 14.2 0 0 1-3.831 12.957l-37.28 37.277-.026-.023a14.4 14.4 0 0 1-9.527 3.579c-3.768 0-7.295-1.453-9.937-4.092-2.681-2.68-4.13-6.259-4.093-10.078a14.45 14.45 0 0 1 3.584-9.39l-.021-.02.511-.515a7 7 0 0 1 .206-.211q.032-.033.064-.062l.123-.125 36.364-36.366a14.07 14.07 0 0 1 10.008-4.144c.977 0 1.947.101 2.899.298l7.993-7.995a24.4 24.4 0 0 0-10.889-2.554 24.26 24.26 0 0 0-17.258 7.148m70.592-38.934c0-6.52-2.541-12.65-7.15-17.258-4.61-4.613-10.74-7.151-17.261-7.151a24.24 24.24 0 0 0-17.257 7.151L49.774 43.442c-7.479 7.478-9.26 18.84-4.585 28.17l7.646-7.646c-.877-4.368.358-8.964 3.315-12.356l-.021-.022.502-.507.201-.206.062-.06.126-.127 36.363-36.364a14.07 14.07 0 0 1 10.014-4.147c3.784 0 7.339 1.472 10.014 4.147 5.522 5.521 5.522 14.51 0 20.027L76.138 71.629l-.026-.026a14.4 14.4 0 0 1-9.526 3.581q-1.428-.001-2.814-.278l-7.645 7.645a24.44 24.44 0 0 0 10.907 2.563c6.523 0 12.652-2.539 17.261-7.148l36.365-36.365c4.61-4.613 7.149-10.742 7.149-17.264"/>
+                        </svg>
 
                         Vamos trabalhar juntos!
                     </a>
@@ -142,7 +150,7 @@
             </section>
 
             <div>
-                <img src="./Assets/img/imagem-perfil.jpg" alt="foto de rafael ott">
+                <img src="./Assets/img/imagem-perfil.jpg" alt="foto de rafael ott"> <!-- falta aqui -->
             </div>
         </div>
     </section>
@@ -201,7 +209,7 @@
                 </ul>
             </section>
 
-            <button>Eu quero!</button>
+            <a href="contato" aria-label="botão que leva para o formulario na seção de contato">Eu quero!</a>
         </div>
     </section>
 
@@ -209,18 +217,22 @@
         <h2>Meus Projetos</h2>
 
         <section>
-            <button>
-                <img src="./Assets/icons/seta.svg" alt="">
+            <button aria-label="botão que move o carrossel para a esquerda">
+                <svg viewBox="0 0 128 128" width="30" height="30">
+                    <path d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z"/><path d="M74.12,35.88a3,3,0,0,0-4.24,0l-26,26a3,3,0,0,0,0,4.24l26,26a3,3,0,0,0,4.24-4.24L50.24,64,74.12,40.12A3,3,0,0,0,74.12,35.88Z"/>
+                </svg>
             </button>
 
-            <div></div>
+            <div></div> <!-- falta aqui -->
             
-            <button>
-                <img src="./Assets/icons/seta.svg" alt="">
+            <button aria-label="botão que move o carrossel para a direita">
+                <svg viewBox="0 0 128 128" width="30" height="30">
+                    <path d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z"/><path d="M74.12,35.88a3,3,0,0,0-4.24,0l-26,26a3,3,0,0,0,0,4.24l26,26a3,3,0,0,0,4.24-4.24L50.24,64,74.12,40.12A3,3,0,0,0,74.12,35.88Z"/>
+                </svg>
             </button>
         </section>
 
-        <div>
+        <div> <!-- falta aqui -->
             <div></div>
             <div></div>
             <div></div>
@@ -232,23 +244,53 @@
 
         <section>
             <div>
+                <div>
+                    <svg width="240" height="240" viewBox="0 0 48 48">
+                        <path fill="#E65100" d="M41 5H7l3 34 14 4 14-4z"/><path fill="#FF6D00" d="M24 8v31.9l11.2-3.2L37.7 8z"/><path fill="#FFF" d="M24 25v-4h8.6l-.7 11.5-7.9 2.6v-4.2l4.1-1.4.3-4.5zm8.9-8 .3-4H24v4z"/><path fill="#EEE" d="M24 30.9v4.2l-7.9-2.6-.4-5.5h4l.2 2.5zM19.1 17H24v-4h-9.1l.7 12H24v-4h-4.6z"/>
+                    </svg>
+                </div>
+
                 <p>Html</p>
             </div>
 
             <div>
-                Css
+                <div>
+                    <svg width="240" height="240" viewBox="0 0 48 48">
+                        <path fill="#0277BD" d="M41 5H7l3 34 14 4 14-4z"/><path fill="#039BE5" d="M24 8v31.9l11.2-3.2L37.7 8z"/><path fill="#FFF" d="M33.1 13H24v4h4.9l-.3 4H24v4h4.4l-.3 4.5-4.1 1.4v4.2l7.9-2.6.7-11.5z"/><path fill="#EEE" d="M24 13v4h-8.9l-.3-4zm-4.6 8 .2 4H24v-4zm.4 6h-4l.3 5.5 7.9 2.6v-4.2l-4.1-1.4z"/>
+                    </svg>
+                </div>
+
+                <p>Css</p>
             </div>
 
             <div>
-                Javascript
+                <div>
+                    <svg width="240" height="240" viewBox="0 0 48 48">
+                        <path fill="#ffd600" d="M6 42V6h36v36z"/><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368zm-11.586.082c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368z"/>
+                    </svg>
+                </div>
+
+                <p>Javascript</p>
             </div>
 
             <div>
-                Git
+                <div>
+                    <svg width="240" height="240" viewBox="0 0 48 48">
+                        <path fill="#F4511E" d="M42.2 22.1 25.9 5.8c-.5-.5-1.2-.8-1.9-.8s-1.4.3-1.9.8l-3.5 3.5 4.1 4.1c.4-.2.8-.3 1.3-.3 1.7 0 3 1.3 3 3 0 .5-.1.9-.3 1.3l4 4c.4-.2.8-.3 1.3-.3 1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3c0-.5.1-.9.3-1.3l-4-4c-.1 0-.2.1-.3.1v10.4c1.2.4 2 1.5 2 2.8 0 1.7-1.3 3-3 3s-3-1.3-3-3c0-1.3.8-2.4 2-2.8V18.8c-1.2-.4-2-1.5-2-2.8 0-.5.1-.9.3-1.3l-4.1-4.1L5.8 22.1c-.5.5-.8 1.2-.8 1.9s.3 1.4.8 1.9l16.3 16.3c.5.5 1.2.8 1.9.8s1.4-.3 1.9-.8l16.3-16.3c.5-.5.8-1.2.8-1.9s-.3-1.4-.8-1.9"/>
+                    </svg>
+                </div>
+
+                <p>Git</p>
             </div>
 
             <div>
-                Figma
+                <div>
+                    <svg width="240" height="240" viewBox="0 0 48 48">
+                        <path fill="#e64a19" d="M26 17h-8a7 7 0 1 1 0-14h8z"/><path fill="#7c4dff" d="M25 31h-7a7 7 0 1 1 0-14h7z"/><path fill="#66bb6a" d="M18 45a7 7 0 1 1 0-14h7v7a7 7 0 0 1-7 7"/><path fill="#ff7043" d="M32 17h-7V3h7a7 7 0 1 1 0 14"/><circle cx="32" cy="24" r="7" fill="#29b6f6"/>
+                    </svg>
+                </div>
+
+                <p>Figma</p>
             </div>
         </section>
     </section>
@@ -259,53 +301,84 @@
         <form>
             <div>
                 <div>
-                    <label for="">Nome</label>
-                    <input type="text" name="" id="">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name">
                 </div>
 
                 <div>
-                    <label for="">Email</label>
-                    <input type="email" name="" id="">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
                 </div>
             </div>
 
             <div>
-                <label for="">Serviço</label>
-                <input type="text" name="" id="">
+                <label for="service">Serviço</label>
+                <input type="text" id="service">
             </div>
 
             <div>
-                <label for="">Descrição</label>
-                <input type="text" name="" id="">
+                <label for="desc">Descrição</label>
+                <input type="text" id="desc">
             </div>
         </form>
 
-        <button></button>
+        <button aria-label="botão que envia o formulario para o email de rafael ott">
+            <svg width="800" height="800" viewBox="0 -2.5 20 20">
+                <path fill="#000" fill-rule="evenodd" d="M10 12.474 0 3.649V15h20V3.649zm.001-2.662L0 .981V0h20v.981z"/>
+            </svg>
+        </button>
     </section>
   </main>
 
   <footer>
     <div>
         <div>
-            <p>GitHub</p>
+            <div>
+                <svg width="250" height="250" viewBox="0 0 50 50">
+                    <path d="M17.791 46.836A2 2 0 0 0 19 45v-5.4q.002-.297.041-.61L19 39h-3.6c-1.5 0-2.8-.6-3.4-1.8-.7-1.3-1-3.5-2.8-4.7-.3-.2-.1-.5.5-.5.6.1 1.9.9 2.7 2 .9 1.1 1.8 2 3.4 2 2.487 0 3.82-.125 4.622-.555C21.356 34.056 22.649 33 24 33v-.025c-5.668-.182-9.289-2.066-10.975-4.975-3.665.042-6.856.405-8.677.707a22 22 0 0 1-.151-.987c1.797-.296 4.843-.647 8.345-.714a8 8 0 0 1-.291-.849c-3.511-.178-6.541-.039-8.187.097-.02-.332-.047-.663-.051-.999 1.649-.135 4.597-.27 8.018-.111a10 10 0 0 1-.13-1.543c0-1.7.6-3.5 1.7-5-.5-1.7-1.2-5.3.2-6.6 2.7 0 4.6 1.3 5.5 2.1C21 13.4 22.9 13 25 13s4 .4 5.6 1.1c.9-.8 2.8-2.1 5.5-2.1 1.5 1.4.7 5 .2 6.6 1.1 1.5 1.7 3.2 1.6 5 0 .484-.045.951-.11 1.409 3.499-.172 6.527-.034 8.204.102-.002.337-.033.666-.051.999-1.671-.138-4.775-.28-8.359-.089a8 8 0 0 1-.325.98c3.546.046 6.665.389 8.548.689q-.064.498-.151.987c-1.912-.306-5.171-.664-8.879-.682-1.665 2.878-5.22 4.755-10.777 4.974V33c2.6 0 5 3.9 5 6.6V45c0 .823.498 1.53 1.209 1.836C41.37 43.804 48 35.164 48 25 48 12.318 37.683 2 25 2S2 12.318 2 25c0 10.164 6.63 18.804 15.791 21.836"/>
+                </svg>
+            </div>
 
-            <p>Rafaelottdev</p>
+            <div>
+                <p>GitHub</p>
+                <a href="#">Rafaelottdev</a>
+            </div>
         </div>
         
         <div>
-            <p>Linkedin</p>
+            <div>
+                <svg width="250" height="250" viewBox="0 0 50 50">
+                    <path d="M41 4H9C6.24 4 4 6.24 4 9v32c0 2.76 2.24 5 5 5h32c2.76 0 5-2.24 5-5V9c0-2.76-2.24-5-5-5M17 20v19h-6V20zm-6-5.53c0-1.4 1.2-2.47 3-2.47s2.93 1.07 3 2.47c0 1.4-1.12 2.53-3 2.53-1.8 0-3-1.13-3-2.53M39 39h-6V29c0-2-1-4-3.5-4.04h-.08C27 24.96 26 27.02 26 29v10h-6V20h6v2.56S27.93 20 31.81 20c3.97 0 7.19 2.73 7.19 8.26z"/>
+                </svg>
+            </div>
 
-            <p>Rafaelottdev</p>
+            <div>
+                <p>Linkedin</p>
+                <a href="#">Rafaelottdev</a>
+            </div>
         </div>
         
         <div>
-            <p>Email</p>
+            <div>
+                <svg width="800" height="800" viewBox="0 -2.5 20 20">
+                    <path fill="#000" fill-rule="evenodd" d="M10 12.474 0 3.649V15h20V3.649zm.001-2.662L0 .981V0h20v.981z"/>
+                </svg>
+            </div>
 
-            <p>rafaelottdev@gmail.com</p>
+            <div>
+                <p>Email</p>
+                <p>rafaelottdev@gmail.com</p>
+            </div>
         </div>
         
         <div>
-            <p>Curriculo</p>
+            <div>
+                <svg width="256" height="256" viewBox="0 0 128 128">
+                    <path d="M33.5 9c-7.2 0-13 5.8-13 13v80c0 7.2 5.8 13 13 13h61c7.2 0 13-5.8 13-13V22c0-7.2-5.8-13-13-13zm0 6h61c3.9 0 7 3.1 7 7v80c0 3.9-3.1 7-7 7h-61c-3.9 0-7-3.1-7-7V22c0-3.9 3.1-7 7-7m0 7v15h61V22zm4 29c-1.7 0-3 1.3-3 3s1.3 3 3 3h51c1.7 0 3-1.3 3-3s-1.3-3-3-3zm0 15c-1.7 0-3 1.3-3 3s1.3 3 3 3h51c1.7 0 3-1.3 3-3s-1.3-3-3-3zm0 15c-1.7 0-3 1.3-3 3s1.3 3 3 3H64c1.7 0 3-1.3 3-3s-1.3-3-3-3z"/>
+                </svg>
+            </div>
+
+            <a href="#">Curriculo</a>
         </div>
     </div>
 
