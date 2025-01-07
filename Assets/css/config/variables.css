@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+:root {
+    /* colors  */
+    --color-primary: rgba(239, 178, 16, 1);
+    --color-secundary: rgba(255, 255, 255, 1);
+
+    --border-color: rgba(239, 178, 16, 0.49);
+
+    /* background colors */
+    --background-color-primary: rgba(0, 0, 0, 0.3);
+
+    /* fonts */
+
+
+    /* text size */
+
+
+    /* spaces */
+
+
+    /* box size */
+
+
+    /* edges */
+
+
+    /* others */
+
+
+    /* z-index */
+}
