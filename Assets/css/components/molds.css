@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.mold-1 {
+    top: 30px;
+    left: 30px;
+}
+
+.mold-2 {
+    top: 50px;
+    left: 50px;
+}
+
+.mold-3 {
+    bottom: 30px;
+    right: 50px;
+}
+
+.mold-4 {
+    bottom: 50px;
+    right: 70px;
+}
+
+/* modificadores */
+
+.mold--position {
+    position: absolute;
+}
+
+.mold--border-top {
+    border-left: 1px solid var(--color-primary);
+    border-top: 1px solid var(--color-primary);
+}
+
+.mold--border-bottom {
+    border-right: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.mold--size-small {
+    width: 100px;
+    height: 100px;
+}
+
+.mold--size-bigger {
+    width: 200px;
+    height: 200px;
+}

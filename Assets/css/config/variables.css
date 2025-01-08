@@ -9,6 +9,7 @@
 
     /* background colors */
     --background-color-primary: rgba(0, 0, 0, 0.3);
+    --background-color-secondary: rgba(0, 0, 0, 0.6);
 
     /* fonts */
 
@@ -29,4 +30,7 @@
 
 
     /* z-index */
+    --background-image-index: 1;
+    --background-color-index: 1;
+    --background-ornaments: 1;
 }
