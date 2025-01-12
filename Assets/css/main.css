@@ -17,6 +17,10 @@
 
 @import url('./components/background.css');
 
+/* animation */
+
+@import url('./animations/animation.css');
+
 /* organizar o main.css - pegar valores repetidos e colocar como variavel */
 /* ver se da pra criar um position mais geral, todos tem position absolute, modificador pra todos não só pra molds ou circles, ver com se dar pra fazer com outros valores tambem, ou pelo menos colocar uma variavel absolute, ou os dois */
 /* tu tava estilizando os circulos */

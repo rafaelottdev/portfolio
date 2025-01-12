@@ -9,16 +9,17 @@
 
     /* background colors */
     --background-color-primary: rgba(0, 0, 0, 0.3);
-    --background-color-secondary: rgba(0, 0, 0, 0.6);
+    --background-color-secondary: rgba(0, 0, 0, 0.785);
 
     /* fonts */
 
     /* header */
 
     /* text size */
+    --upper: uppercase;
 
     /* spaces */
-    --corner-padding: 60px;
+    --corner-padding: 70px;
     /* box size */
 
     /* edges */

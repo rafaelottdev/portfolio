@@ -62,8 +62,6 @@
     top: 39px;
 }
 
-/* Reusers */
-
 .middle-circle {
     width: 75px;
     height: 75px;
@@ -81,8 +79,6 @@
     border-radius: 50%;
     border: 1px solid var(--color-primary);
 }
-
-/* modifiers */
 
 .circle--size {
     width: 150px;

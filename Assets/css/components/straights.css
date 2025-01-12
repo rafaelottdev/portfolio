@@ -31,8 +31,6 @@
     right: 375px;
 }
 
-/* Reusers */
-
 .straight-layout {
     position: absolute;
 
@@ -40,8 +38,6 @@
 
     border-top: 1px solid var(--color-primary);
 }
-
-/* modifiers */
 
 .straight--size-1 {
     width: 900px;

@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: 50px var(--corner-padding) 0px var(--corner-padding);
+    padding: 60px var(--corner-padding) 0px var(--corner-padding);
 
     color: var(--color-primary);
     /* background-color: rgba(255, 0, 0, 0.108); */
@@ -17,7 +17,7 @@
 .l-header__main-title {
     font-size: var(--header__title--size);
     font-family: var(--header__title);
-    text-transform: uppercase;
+    text-transform: var(--upper);
     letter-spacing: 2px;
 }
 
@@ -30,15 +30,16 @@
 
     font-size: var(--list__item--size);
     font-family: var(--list__item);
-    text-transform: uppercase;
+    text-transform: var(--upper);
     letter-spacing: 1px;
 }
 
 .list__link {
-    padding: 10px 30px;
+    padding: 10px 20px;
+    position: relative;
     /* background-color: rgba(0, 0, 255, 0.058); */
 }
 
 .list__item + .list__item {
-    margin-left: 3px;
+    margin-left: 5px;
 }
