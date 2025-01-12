@@ -1,36 +1,7 @@
 @charset "UTF-8";
 
-:root {
-    /* colors  */
-    --color-primary: rgba(239, 178, 16, 1);
-    --color-secundary: rgba(255, 255, 255, 1);
+@import url('./variables/global.css');
 
-    --border-color: rgba(239, 178, 16, 0.49);
+@import url('./variables/background.css');
 
-    /* background colors */
-    --background-color-primary: rgba(0, 0, 0, 0.3);
-    --background-color-secondary: rgba(0, 0, 0, 0.6);
-
-    /* fonts */
-
-
-    /* text size */
-
-
-    /* spaces */
-
-
-    /* box size */
-
-
-    /* edges */
-
-
-    /* others */
-
-
-    /* z-index */
-    --background-image-index: 1;
-    --background-color-index: 1;
-    --background-ornaments: 1;
-}
+@import url('./variables/header.css');

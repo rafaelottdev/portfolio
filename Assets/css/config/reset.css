@@ -10,8 +10,9 @@
     list-style: none;
 
     border: none;
+    color: inherit;
 }
 
-html, body {
+/* html, body {
     overflow-x: hidden;
-}
+} */

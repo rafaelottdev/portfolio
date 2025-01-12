@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+:root {
+    /* colors  */
+
+    /* background colors */
+
+    /* fonts */
+    --header__title: "fellEnglish", sans-serif;
+    --header__title-letter: "dancingVamp", sans-serif;
+    --list__item: "arcane", sans-serif;
+
+    /* header */
+
+    /* text size */
+    --header__title--size: 1.8em;
+    --list__item--size: 1.2em;
+
+    /* spaces */
+
+    /* box size */
+
+    /* edges */
+
+    /* others */
+
+    /* z-index */
+}
+
+@font-face {
+    font-family: "dancingVamp";
+    src: url("/Assets/fonts/dancing_vampyrish/DancingVampyrish.ttf");
+}
+
+@font-face {
+    font-family: "fellEnglish";
+    src: url("/Assets/fonts/IM_Fell_English/FeENsc2.ttf");
+}
+
+@font-face {
+    font-family: "arcane";
+    src: url('/Assets/fonts/arcane_nine/Arcane\ Nine.otf');
+}

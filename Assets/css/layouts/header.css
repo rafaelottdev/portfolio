@@ -1,8 +1,44 @@
 @charset "UTF-8";
 
-.header {
-    width: 100vw;
-    height: 75px;
+.l-header {
+    max-width: 100vw;
+    height: 110px;
 
-    background-color: rgb(194, 167, 167);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px var(--corner-padding) 0px var(--corner-padding);
+
+    color: var(--color-primary);
+    /* background-color: rgba(255, 0, 0, 0.108); */
+}
+
+.l-header__main-title {
+    font-size: var(--header__title--size);
+    font-family: var(--header__title);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.l-header__main-title span {
+    font-family: var(--header__title-letter);
+}
+
+.l-navbar__list {
+    display: flex;
+
+    font-size: var(--list__item--size);
+    font-family: var(--list__item);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.list__link {
+    padding: 10px 30px;
+    /* background-color: rgba(0, 0, 255, 0.058); */
+}
+
+.list__item + .list__item {
+    margin-left: 3px;
 }
