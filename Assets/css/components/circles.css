@@ -1,11 +1,101 @@
-.circle-bottom {
-    width: 150px;
-    height: 150px;
+@charset "UTF-8";
 
+.circle-bottom {
     position: absolute;
     left: 30px;
     bottom: 30px;
+}
 
+.bottom-circle-1 {
+    left: 59px;
+    bottom: 58px;
+}
+
+.bottom-circle-2 {
+    left: 59px;
+    bottom: 81px;
+}
+
+.bottom-circle-3 {
+    left: 37px;
+    bottom: 61px;
+}
+
+.bottom-circle-4 {
+    left: 81px;
+    bottom: 60px;
+}
+
+.bottom-circle-5 {
+    left: 59px;
+    bottom: 39px;
+}
+
+.circle-top {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+.top-circle-1 {
+    right: 59px;
+    top: 58px;
+}
+
+.top-circle-2 {
+    right: 59px;
+    top: 81px;
+}
+
+.top-circle-3 {
+    right: 37px;
+    top: 61px;
+}
+
+.top-circle-4 {
+    right: 81px;
+    top: 60px;
+}
+
+.top-circle-5 {
+    right: 59px;
+    top: 39px;
+}
+
+/* Reusers */
+
+.middle-circle {
+    width: 75px;
+    height: 75px;
+
+    border-radius: 50%;
+    border: 1px solid var(--color-primary);
+}
+
+.small-circle {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+
+    border-radius: 50%;
+    border: 1px solid var(--color-primary);
+}
+
+/* modifiers */
+
+.circle--size {
+    width: 150px;
+    height: 150px;
+}
+
+.circle--display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle--layout {
     border-radius: 50%;
     border: 1px solid var(--color-primary);
 }

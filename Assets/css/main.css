@@ -5,6 +5,10 @@
 @import url('./config/variables.css');
 @import url('./config/reset.css');
 
+/* header */
+
+@import url('./layouts/header.css');
+
 /* home */
 
 @import url('./layouts/home-background.css');

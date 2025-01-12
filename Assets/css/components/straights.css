@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.top-straight-1 {
+    top: 270px;
+    right: 220px;
+
+}
+
+.top-straight-2 {
+    bottom: 160px;
+    left: 168px;
+}
+
+.top-straight-3 {
+    bottom: 215px;
+    left: 345px;
+}
+
+.bottom-straight-1 {
+    bottom: 270px;
+    left: 190px;
+}
+
+.bottom-straight-2 {
+    top: 158px;
+    right: 189px;
+}
+
+.bottom-straight-3 {
+    top: 218px;
+    right: 375px;
+}
+
+/* Reusers */
+
+.straight-layout {
+    position: absolute;
+
+    transform: rotate(-23deg);
+
+    border-top: 1px solid var(--color-primary);
+}
+
+/* modifiers */
+
+.straight--size-1 {
+    width: 900px;
+    height: 1px;
+}
+
+.straight--size-2 {
+    width: 130px;
+    height: 1px;
+}
+
+.straight--size-3 {
+    width: 50px;
+    height: 1px;
+}

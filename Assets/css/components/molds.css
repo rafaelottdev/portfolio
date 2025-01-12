@@ -1,26 +1,26 @@
 @charset "UTF-8";
 
-.mold-1 {
+.mold-top-1 {
     top: 30px;
     left: 30px;
 }
 
-.mold-2 {
+.mold-top-2 {
     top: 50px;
     left: 50px;
 }
 
-.mold-3 {
+.mold-bottom-1 {
     bottom: 30px;
     right: 50px;
 }
 
-.mold-4 {
+.mold-bottom-2 {
     bottom: 50px;
     right: 70px;
 }
 
-/* modificadores */
+/* modifiers */
 
 .mold--position {
     position: absolute;
