@@ -43,7 +43,7 @@
  <meta property="og:url" content="https://rafaelottdev.github.io/portfolio">
 </head>
 <body>
-  <header class="l-header">
+  <header class="l-header padding-space">
         <!-- <div class="l-header__container"> -->
             <h1 class="l-header__main-title">
                 <a href="#" aria-label="Rafael ott - Logo do site - Link que leva pro inicio do site">
@@ -77,7 +77,7 @@
         <!-- </div> -->
   </header>
   
-  <main class="l-main">
+  <main class="l-main padding-space">
     <section class="l-home">
         <div class="background-image">
             <div class="background-color"></div>
@@ -117,25 +117,34 @@
             <div class="mold--size-bigger mold--position mold--border-bottom mold-bottom-2"></div>
         </div>
 
-        <div>
-            <div>
-                <section>
-                    <p>Olá, Meu nome é Rafael, sou um desenvolvedor Front End.</p>
+        <div class="l-home__home-container">
+            <div class="home-container__info">
+                <section class="info__text-container">
+                    <div class="text-container__container">
+                        <p class="container__text container__text-1">Olá, Meu nome é Rafael :)</p>
+                        
+                        <p class="container__text container__text-2">Sou um desenvolvedor <span>Front End</span>.</p>
 
-                    <p>Trabalho com <span>Html</span>, <span>Css</span>, <span>Js</span>, <span>Git</span> e <span>Figma</span>
+                        <p class="container__text container__text-3">Trabalho com <span>Html</span>, <span>Css</span>, <span>Js</span>, <span>Git</span> e <span>Figma</span>
+                    </div>
 
-                    <button aria-label="botão que leva para a seção sobre da pagina">Explorar</button>
+                    <button aria-label="botão que leva para a seção sobre da pagina" class="container__explore-button button-style">
+                        <p class="btn">Explorar</p>
+
+                        <div class="button-background-color"></div>
+                        <div class="button-background-image"></div>
+                    </button>
                 </section>
 
-                <section></section>  <!-- falta aqui -->
+                <section class="info__slide"></section>  <!-- falta aqui -->
             </div>
 
-            <div>
-                <div>
-                    <ul>
+            <div class="home-container__social-media">
+                <div class="social-media__social-container">
+                    <ul class="social-container__list">
                         <li>
                             <a href="https://github.com/rafaelottdev" target="_blank" aria-label="github - link que leva para o meu perfil no github">
-                                <svg width="250" height="250" viewBox="0 0 50 50">
+                                <svg viewBox="0 0 50 50">
                                     <path d="M17.791 46.836A2 2 0 0 0 19 45v-5.4q.002-.297.041-.61L19 39h-3.6c-1.5 0-2.8-.6-3.4-1.8-.7-1.3-1-3.5-2.8-4.7-.3-.2-.1-.5.5-.5.6.1 1.9.9 2.7 2 .9 1.1 1.8 2 3.4 2 2.487 0 3.82-.125 4.622-.555C21.356 34.056 22.649 33 24 33v-.025c-5.668-.182-9.289-2.066-10.975-4.975-3.665.042-6.856.405-8.677.707a22 22 0 0 1-.151-.987c1.797-.296 4.843-.647 8.345-.714a8 8 0 0 1-.291-.849c-3.511-.178-6.541-.039-8.187.097-.02-.332-.047-.663-.051-.999 1.649-.135 4.597-.27 8.018-.111a10 10 0 0 1-.13-1.543c0-1.7.6-3.5 1.7-5-.5-1.7-1.2-5.3.2-6.6 2.7 0 4.6 1.3 5.5 2.1C21 13.4 22.9 13 25 13s4 .4 5.6 1.1c.9-.8 2.8-2.1 5.5-2.1 1.5 1.4.7 5 .2 6.6 1.1 1.5 1.7 3.2 1.6 5 0 .484-.045.951-.11 1.409 3.499-.172 6.527-.034 8.204.102-.002.337-.033.666-.051.999-1.671-.138-4.775-.28-8.359-.089a8 8 0 0 1-.325.98c3.546.046 6.665.389 8.548.689q-.064.498-.151.987c-1.912-.306-5.171-.664-8.879-.682-1.665 2.878-5.22 4.755-10.777 4.974V33c2.6 0 5 3.9 5 6.6V45c0 .823.498 1.53 1.209 1.836C41.37 43.804 48 35.164 48 25 48 12.318 37.683 2 25 2S2 12.318 2 25c0 10.164 6.63 18.804 15.791 21.836"/>
                                 </svg>
                             </a>
@@ -143,7 +152,7 @@
 
                         <li>
                             <a href="https://www.linkedin.com/in/rafael-ott-8435572b1/" target="_blank" aria-label="linkedin - link que leva para o meu perfil no linkedin">
-                                <svg width="250" height="250" viewBox="0 0 50 50">
+                                <svg viewBox="0 0 50 50">
                                     <path d="M41 4H9C6.24 4 4 6.24 4 9v32c0 2.76 2.24 5 5 5h32c2.76 0 5-2.24 5-5V9c0-2.76-2.24-5-5-5M17 20v19h-6V20zm-6-5.53c0-1.4 1.2-2.47 3-2.47s2.93 1.07 3 2.47c0 1.4-1.12 2.53-3 2.53-1.8 0-3-1.13-3-2.53M39 39h-6V29c0-2-1-4-3.5-4.04h-.08C27 24.96 26 27.02 26 29v10h-6V20h6v2.56S27.93 20 31.81 20c3.97 0 7.19 2.73 7.19 8.26z"/>
                                 </svg>
                             </a>
@@ -151,7 +160,7 @@
 
                         <li>
                             <a href="#" target="_blank" aria-label="curriculo - link que leva para o meu curriculo em formato pdf"> <!-- falta aqui -->
-                                <svg width="256" height="256" viewBox="0 0 128 128">
+                                <svg viewBox="0 0 128 128">
                                     <path d="M33.5 9c-7.2 0-13 5.8-13 13v80c0 7.2 5.8 13 13 13h61c7.2 0 13-5.8 13-13V22c0-7.2-5.8-13-13-13zm0 6h61c3.9 0 7 3.1 7 7v80c0 3.9-3.1 7-7 7h-61c-3.9 0-7-3.1-7-7V22c0-3.9 3.1-7 7-7m0 7v15h61V22zm4 29c-1.7 0-3 1.3-3 3s1.3 3 3 3h51c1.7 0 3-1.3 3-3s-1.3-3-3-3zm0 15c-1.7 0-3 1.3-3 3s1.3 3 3 3h51c1.7 0 3-1.3 3-3s-1.3-3-3-3zm0 15c-1.7 0-3 1.3-3 3s1.3 3 3 3H64c1.7 0 3-1.3 3-3s-1.3-3-3-3z"/>
                                 </svg>
                             </a>
@@ -159,10 +168,11 @@
                     </ul>
                 </div>
 
-                <div>
+                <div class="social-media__work-toguether">
                     <a href="#contato" target="_blank" aria-label="link que leva para o formulario de contato no final da pagina, que fica na seção de contato">
-                        <svg width="141.732" height="141.732">
-                            <path d="M57.217 63.271 20.853 99.637c-4.612 4.608-7.15 10.738-7.15 17.259 0 6.524 2.541 12.653 7.151 17.261a24.27 24.27 0 0 0 17.259 7.15h.002c6.52 0 12.648-2.54 17.257-7.15L91.738 97.79c7.484-7.484 9.261-18.854 4.573-28.188l-7.984 7.985a14.2 14.2 0 0 1-3.831 12.957l-37.28 37.277-.026-.023a14.4 14.4 0 0 1-9.527 3.579c-3.768 0-7.295-1.453-9.937-4.092-2.681-2.68-4.13-6.259-4.093-10.078a14.45 14.45 0 0 1 3.584-9.39l-.021-.02.511-.515a7 7 0 0 1 .206-.211q.032-.033.064-.062l.123-.125 36.364-36.366a14.07 14.07 0 0 1 10.008-4.144c.977 0 1.947.101 2.899.298l7.993-7.995a24.4 24.4 0 0 0-10.889-2.554 24.26 24.26 0 0 0-17.258 7.148m70.592-38.934c0-6.52-2.541-12.65-7.15-17.258-4.61-4.613-10.74-7.151-17.261-7.151a24.24 24.24 0 0 0-17.257 7.151L49.774 43.442c-7.479 7.478-9.26 18.84-4.585 28.17l7.646-7.646c-.877-4.368.358-8.964 3.315-12.356l-.021-.022.502-.507.201-.206.062-.06.126-.127 36.363-36.364a14.07 14.07 0 0 1 10.014-4.147c3.784 0 7.339 1.472 10.014 4.147 5.522 5.521 5.522 14.51 0 20.027L76.138 71.629l-.026-.026a14.4 14.4 0 0 1-9.526 3.581q-1.428-.001-2.814-.278l-7.645 7.645a24.44 24.44 0 0 0 10.907 2.563c6.523 0 12.652-2.539 17.261-7.148l36.365-36.365c4.61-4.613 7.149-10.742 7.149-17.264"/>
+
+                        <svg viewBox="0 0 950 950">
+                            <path d="M857.7 141.3c-30.1-30.1-65.1-53.5-104.3-69.4-37.8-15.3-77.7-23.2-118.7-23.2-40.9 0-80.9 7.7-118.7 22.9-39.1 15.8-74.2 38.9-104.3 68.8L73.1 478.3c-23.8 23.6-42.2 51.1-54.8 81.9C6.2 589.9 0 621.3 0 653.6c0 32.1 6.1 63.4 18.1 93.1 12.4 30.7 30.7 58.2 54.3 81.899 23.6 23.7 51.2 42 81.9 54.5 29.7 12.101 61.1 18.2 93.3 18.2s63.6-6.1 93.3-18.1c30.8-12.5 58.399-30.8 82.1-54.4l269.101-268c17.3-17.2 30.6-37.3 39.699-59.7 8.801-21.6 13.2-44.5 13.2-67.899 0-48.2-18.8-93.2-52.899-127-34-34.2-79.2-53.1-127.301-53.3-48.199-.1-93.5 18.6-127.6 52.7L269.6 473.3c-8.5 8.5-13.1 19.7-13.1 31.601 0 11.899 4.6 23.199 13.1 31.6l.7.7c17.4 17.5 45.8 17.5 63.3.1l168-167.5c35.1-34.8 92.1-35 127.199-.399 16.9 16.8 26.101 39.3 26.101 63.399 0 24.3-9.4 47.101-26.5 64.101l-269 268c-.5.5-.9.899-1.2 1.5-29.7 28.899-68.9 44.699-110.5 44.5-41.9-.2-81.2-16.5-110.6-46-14.7-15-26.1-32.5-34-52C95.5 694 91.7 674 91.7 653.6c0-41.8 16.1-80.899 45.4-110.3.4-.3.7-.6 1.1-.899l337.9-337.8c.3-.3.6-.7.899-1.1 21.4-21 46.3-37.4 74-48.5 27-10.8 55.4-16.2 84.601-16.2 29.199 0 57.699 5.6 84.6 16.4 27.9 11.3 52.9 27.8 74.3 49.1 21.4 21.4 37.9 46.4 49.2 74.3 10.9 26.9 16.4 55.4 16.4 84.6 0 29.3-5.5 57.9-16.5 85-11.301 28-28 53.2-49.5 74.8l-233.5 232.8c-8.5 8.5-13.2 19.7-13.2 31.7s4.7 23.2 13.1 31.6l.5.5c17.4 17.4 45.8 17.4 63.2 0L857.5 586.9c30.101-30.1 53.5-65.2 69.4-104.3 15.4-37.8 23.1-77.7 23.1-118.7 0-40.9-7.8-80.8-23.1-118.5-15.799-39.1-39.1-74.1-69.2-104.1"/>
                         </svg>
 
                         Vamos trabalhar juntos!
@@ -426,4 +436,6 @@
   </footer>
 </body>
 </html>
-<!-- verificar se da pra colocar mais variaveis ou reutilizar mais clas
+
+<!-- Mlhorar o nome das classes do background-button e terminar de estilizar o botão e o home -->
+ 

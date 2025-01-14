@@ -13,13 +13,15 @@
 
     /* fonts */
 
+    --text: "cardo", sans-serif;
+
     /* header */
 
     /* text size */
     --upper: uppercase;
 
     /* spaces */
-    --corner-padding: 70px;
+    
     /* box size */
 
     /* edges */
@@ -27,4 +29,9 @@
     /* others */
 
     /* z-index */
+}
+
+@font-face {
+    font-family: 'cardo';
+    src: url('/Assets/fonts/cardo/Cardo-Regular.ttf');
 }
