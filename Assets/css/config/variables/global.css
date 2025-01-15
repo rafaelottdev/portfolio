@@ -21,12 +21,14 @@
     --upper: uppercase;
 
     /* spaces */
+    --padding-value: 70px;
     
     /* box size */
 
     /* edges */
 
     /* others */
+    --border-radius: 2px;
 
     /* z-index */
 }

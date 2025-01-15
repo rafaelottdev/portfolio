@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
 .padding-space {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: var(--padding-value);
+    padding-right: var(--padding-value);
 }
