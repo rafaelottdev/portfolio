@@ -23,6 +23,8 @@
 
 @import url('./utilities/corner-padding.css');
 @import url('./utilities/border-radius.css');
+@import url('./utilities/display-flex.css');
+@import url('./utilities/cursor-pointer.css');
 
 /* animation */
 
