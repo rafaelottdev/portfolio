@@ -13,6 +13,11 @@
 
 @import url('./layouts/home-background.css');
 @import url('./layouts/home.css');
+@import url('./layouts/about.css');
+
+/* about */ 
+
+@import url('./layouts/about-background.css');
 
 /* components */
 

@@ -1,0 +1,51 @@
+.l-about__mold-top {
+    
+}
+
+.l-about__mold-bottom {
+    
+}
+
+.l-about__mold-top-horizontal {
+    width: 350px;
+    height: 10px;
+
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+    border: 1px solid var(--color-primary);
+}
+
+.l-about__mold-top-vertical {
+    width: 10px;
+    height: 330px;
+
+    position: absolute;
+    top: 0px;
+    left: 30px;
+
+    border: 1px solid var(--color-primary);
+}
+
+.l-about__mold-bottom-horizontal {
+    width: 330px;
+    height: 10px;
+
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
+    border: 1px solid var(--color-primary);
+}
+
+.l-about__mold-bottom-vertical {
+    width: 10px;
+    height: 330px;
+
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+
+    border: 1px solid var(--color-primary);
+}
