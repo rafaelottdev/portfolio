@@ -11,7 +11,6 @@
     padding-top: 60px;
 
     color: var(--color-primary);
-    /* background-color: rgba(255, 0, 0, 0.108); */
 }
 
 .l-header__main-title {
@@ -37,7 +36,6 @@
 .list__link {
     padding: 10px 20px;
     position: relative;
-    /* background-color: rgba(0, 0, 255, 0.058); */
 }
 
 .list__item + .list__item {
