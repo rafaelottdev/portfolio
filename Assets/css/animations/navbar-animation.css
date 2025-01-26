@@ -16,3 +16,7 @@
 .list__link:hover::after {
     width: 100%;
 }
+
+.animation {
+    transition: 1s;
+}
