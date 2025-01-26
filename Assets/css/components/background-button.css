@@ -5,8 +5,6 @@
     color: var(--color-primary);
 
     position: relative;
-
-    border-radius: var(--corner-radius);
 }
 
 .button-text {
@@ -48,5 +46,4 @@
     z-index: 1;
 
     background-image: url('/Assets/img/background.jpg');
-    border-radius: var(--corner-radius);
 }

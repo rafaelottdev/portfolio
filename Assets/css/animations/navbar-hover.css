@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .list__link::after {
     width: 0;
     height: 1px;
